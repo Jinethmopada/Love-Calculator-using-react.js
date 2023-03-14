@@ -1,0 +1,78 @@
+.app-container {
+  background-color: #fc03ca;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+  width: 400px;
+  height: 90px;
+  margin-top: 20px;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: fantasy;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+  width: 500px;
+  height: 250px;
+}
+
+.label-el {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fc03ca;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+.input {
+  width: 150px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.btn {
+  color: white;
+  background-color: #fc03ca;
+  width: 100px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.result {
+  font-size: 25px;
+  font-family: cursive;
+  color: #fc03ca;
+}
